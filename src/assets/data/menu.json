@@ -1,0 +1,22 @@
+[
+    {
+        "Nombre": "dashboard",
+        "Redirect": "/dashboard"
+    },
+    {
+        "Nombre": "Lista de convenios",
+        "Redirect": "/dashboard/lista convenios"
+    },
+    {
+        "Nombre": "Lista de estudiantes",
+        "Redirect": "/dashboard/lista estudiantes"
+    },
+    {
+        "Nombre": "Asignar estudiantes a practicas",
+        "Redirect": "/dashboard/practicas"
+    },
+    {
+        "Nombre": "lola",
+        "Redirect": "/dashboard/crear convenios"
+    }
+]

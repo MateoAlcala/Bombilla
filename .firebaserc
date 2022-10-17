@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "practicas-b8c31"
+  },
+  "targets": {
+    "practicas-b8c31": {
+      "hosting": {
+        "Bombilla": [
+          "practicas-b8c31"
+        ]
+      }
+    }
+  }
+}
