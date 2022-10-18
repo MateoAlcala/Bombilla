@@ -40,7 +40,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     HttpClientModule,
     MatTableModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

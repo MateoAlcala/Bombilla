@@ -8,11 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CrearConvenioComponent implements OnInit {
 
-  CrearConvenios: FormGroup<any>;
+ /*  CrearConvenios: FormGroup<any>; */
   Submitted = false;
 
   constructor(private fb: FormBuilder) {
-    this.CrearConvenios = this.fb.group({
+    /* this.CrearConvenios = this.fb.group({
       especificidad: ['', Validators.required],
       diaInicio: ['', Validators],
       mesInicio: ['', Validators],
@@ -31,8 +31,9 @@ export class CrearConvenioComponent implements OnInit {
       departamento: ['', Validators],
       programaAcademicoQueGestionoElConvenio: ['', Validators],
       escaneado: ['', Validators]
-    })
+    }) */
   }
+
 
   ngOnInit(): void {
   }

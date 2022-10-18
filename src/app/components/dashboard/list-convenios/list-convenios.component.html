@@ -6,4 +6,49 @@
       </div>
   </div>
 </div>
-<router-outlet></router-outlet>
+<table>
+  <thead>
+    <tr>
+      <th>Especificidad</th>
+      <th>Dia inicio</th>
+      <th>Mes Inicio</th>
+      <th>Año Inicio</th>
+      <th>Dia fin</th>
+      <th>Mes fin</th>
+      <th>Año fin</th>
+      <th>Estado de Convenio</th>
+      <th>Nombre de la Organizacion</th>
+      <th>Sector</th>
+      <th>Informacion de contacto</th>
+      <th>correo electronico</th>
+      <th>Direccion</th>
+      <th>Municipio</th>
+      <th>Pais</th>
+      <th>Departamento</th>
+      <th>Programa Academico que gestiono el convenio</th>
+      <th>escaneo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let convenio of convenios">
+      <td >{{convenio.especificidad | titlecase}}</td>
+      <td>{{convenio.diaInicio}}</td>
+      <td>{{convenio.mesInicio}}</td>
+      <td>{{convenio.anoInicio}}</td>
+      <td>{{convenio.diaFin}}</td>
+      <td>{{convenio.mesFin}}</td>
+      <td>{{convenio.anoFin}}</td>
+      <td>{{convenio.estadoDelConvenio}}</td>
+      <td>{{convenio.nombreDeLaOrganizacion}}</td>
+      <td>{{convenio.sector}}</td>
+      <td>{{convenio.informacionDeContacto}}</td>
+      <td>{{convenio.correoElectronico}}</td>
+      <td>{{convenio.direccion}}</td>
+      <td>{{convenio.municipio}}</td>
+      <td>{{convenio.pais}}</td>
+      <td>{{convenio.departamento}}</td>
+      <td>{{convenio.programaAcademicoQueGestionoElConvenio}}</td>
+      <td>{{convenio.escaneo}}</td>
+    </tr>
+  </tbody>
+</table>

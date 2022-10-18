@@ -16,7 +16,7 @@
         "Redirect": "/dashboard/practicas"
     },
     {
-        "Nombre": "lola",
-        "Redirect": "/dashboard/crear convenios"
-    }
+      "Nombre": "hola",
+      "Redirect": "/dashboard/crear convenio"
+  }
 ]

@@ -1,4 +1,5 @@
 export const environment = {
+  production: true,
   firebase: {
     projectId: 'practicas-b8c31',
     appId: '1:312594045076:web:ca7bc31bd758fdd9e5fc81',
@@ -9,5 +10,5 @@ export const environment = {
     authDomain: 'practicas-b8c31.firebaseapp.com',
     messagingSenderId: '312594045076',
   },
-  production: true
+
 };

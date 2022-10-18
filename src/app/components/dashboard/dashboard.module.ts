@@ -33,7 +33,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ListConveniosComponent,
     ListestudiantesComponent,
     PracticasComponent,
-    CrearConvenioComponent,
+    CrearConvenioComponent
   ],
   imports: [
     CommonModule,
@@ -49,7 +49,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatMenuModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
-    ReactiveFormsModule,  
+    ReactiveFormsModule,
     FormsModule,
     RouterModule,
   ]

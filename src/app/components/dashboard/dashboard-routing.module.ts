@@ -13,7 +13,7 @@ const routes: Routes = [
     {path: 'lista convenios', component: ListConveniosComponent },
     {path: 'lista estudiantes', component: ListestudiantesComponent},
     {path: 'practicas', component: PracticasComponent},
-    {path: 'crear convenios', component: CrearConvenioComponent},
+    {path: 'crear convenio', component: CrearConvenioComponent},
     {path: '**', redirectTo: '', pathMatch: 'full'}
   ] },
 ];
